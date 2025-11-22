@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true, // Listen on all addresses
-    allowedHosts: ['*'], // Allow all hosts
+    allowedHosts: ['.e2b.app'], // Allow all e2b.app subdomains
   },
 })
