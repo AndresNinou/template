@@ -7,6 +7,11 @@ import './App.css'
 // TestC iteration 2 added a fix
 console.log('TestC iteration 1')
 
+/**
+ * Main application component
+ * Displays the Vite + React landing page with an interactive counter
+ * @returns {JSX.Element} The root application UI
+ */
 function App() {
   const [count, setCount] = useState(0)
 
