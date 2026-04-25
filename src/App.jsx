@@ -7,9 +7,23 @@ import './App.css'
 // TestC iteration 2 added a fix
 console.log('TestC iteration 1')
 
-function App() {
+function Counter() {
   const [count, setCount] = useState(0)
 
+  return (
+    <div className="card">
+      <h2>Counter</h2>
+      <p style={{ fontSize: '2rem' }}>{count}</p>
+      <div style={{ display: 'flex', gap: '0.5rem', justifyContent: 'center' }}>
+        <button onClick={() => setCount((c) => c - 1)}>-</button>
+        <button onClick={() => setCount(0)}>Reset</button>
+        <button onClick={() => setCount((c) => c + 1)}>+</button>
+      </div>
+    </div>
+  )
+}
+
+function App() {
   return (
     <>
       <div>
@@ -21,14 +35,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
+      <Counter />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
