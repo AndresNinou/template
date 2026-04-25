@@ -1,5 +1,19 @@
 // workflow audit
-# React + Vite
+# Template
+
+## Project Overview
+
+This is a modern React application starter template built with **Vite** and **React 19**. It provides a minimal, opinionated setup to quickly bootstrap new React projects with:
+
+- **Fast development experience** with Vite's Hot Module Replacement (HMR)
+- **React 19** with modern JavaScript features
+- **ESLint configuration** for code quality and best practices
+- **Pre-configured build tooling** optimized for production deployments
+- **Development and preview scripts** for local testing and production builds
+
+The template is designed to be lightweight and extensible, allowing you to add additional tools and libraries as your project grows.
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
