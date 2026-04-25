@@ -3,6 +3,17 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## About This Project
+
+This is a starter template for building modern web applications using **React 19** and **Vite 7**. It comes pre-configured with:
+
+- Fast refresh for instant development feedback
+- ESLint setup for code quality
+- Modern JavaScript tooling and build optimization
+- Minimal dependencies for a lightweight starting point
+
+Perfect for creating single-page applications (SPAs) with a focus on developer experience and build performance.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
