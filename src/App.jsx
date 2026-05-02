@@ -9,6 +9,7 @@ console.log('TestC iteration 1')
 
 function App() {
   const [count, setCount] = useState(0)
+  // TODO: add unit tests for the counter component
 
   return (
     <>
