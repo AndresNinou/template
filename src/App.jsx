@@ -8,6 +8,7 @@ import './App.css'
 console.log('TestC iteration 1')
 
 function App() {
+  console.log('App loaded')
   const [count, setCount] = useState(0)
 
   return (
