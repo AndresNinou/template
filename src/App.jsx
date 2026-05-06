@@ -32,6 +32,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <footer className="copyright">
+        <p>&copy; 2026 Your Company Name. All rights reserved.</p>
+      </footer>
     </>
   )
 }
