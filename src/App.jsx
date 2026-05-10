@@ -1,3 +1,4 @@
+console.log('hello from autonomy test')
 // TestB standard
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
