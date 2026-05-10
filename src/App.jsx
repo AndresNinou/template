@@ -15,6 +15,7 @@ console.log('TestC iteration 1')
  * @returns {JSX.Element} The rendered App component
  */
 function App() {
+  console.log('App loaded')
   const [count, setCount] = useState(0)
   // TODO: add unit tests for the counter component
 
