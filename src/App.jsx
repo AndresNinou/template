@@ -7,6 +7,13 @@ import './App.css'
 // TestC iteration 2 added a fix
 console.log('TestC iteration 1')
 
+/**
+ * App component - The main application component.
+ * Displays a simple counter application with links to Vite and React documentation,
+ * featuring a button that increments a counter on click.
+ * @component
+ * @returns {JSX.Element} The rendered App component
+ */
 function App() {
   const [count, setCount] = useState(0)
   // TODO: add unit tests for the counter component
